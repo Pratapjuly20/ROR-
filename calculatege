@@ -1,0 +1,13 @@
+use Pratap;
+create table calendar
+(
+abc varchar(10),
+din date
+); 
+insert into calendar values('Divya pratap',now());
+select * from calendar;
+insert into calendar values('Divya','1992-07-20');
+select datediff('2014-10-03','2014-10-02') as difference;
+insert into calendar values ('Pratap',curdate());
+select round(datediff(curdate(),'1993-11-01')/365);
+select round(1.2985,-1);
